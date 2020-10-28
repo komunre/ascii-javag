@@ -2,9 +2,7 @@ package ru.komunre.ascii_javag;
 
 public class AjavagFrame extends ASCIIComponent {
     public AjavagFrame(int width, int height){
-        super(0, 0);
-        this.width = width;
-        this.height = height;
+        super(0, 0, width, height);
     }
     @Override
     public void build(){
