@@ -1,7 +1,7 @@
 # ASCII-javag
 Simple Java library for ascii interface.
 
-##Build
+## Build
 ###### Linux
 `./gradlew build`
 
@@ -22,7 +22,7 @@ frame.combineChilded();
 frame.draw();
 ````
 
-##Future features
+## Future features
 * JavaDoc API improvement
 
 * Scroll component
