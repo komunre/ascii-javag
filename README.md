@@ -8,6 +8,11 @@ Simple Java library for ascii interface.
 ###### Windows
 `gradlew.bat build`
 
+## Javadoc
+Current javadoc server: zloserver.com:30011
+
+Possible future javadoc location: ru.komunre
+
 ## How to use
 ASCIIComponent is base of all ascii components. You can add childs to any ascii component.
 
