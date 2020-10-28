@@ -13,6 +13,13 @@ public abstract class ASCIIComponent {
     protected String result;
     protected ASCIIComponent[] components;
 
+    /**
+     * Create an ascii component.
+     * @param x Coordinate x relative to parent
+     * @param y Coordinate y relative to parent
+     * @param width Width of a component
+     * @param height Height of a component
+     */
     public ASCIIComponent(int x, int y, int width, int height){
         this.x = x;
         this.y = y;
@@ -21,12 +28,17 @@ public abstract class ASCIIComponent {
     }
 
     /**
-     * Build result
+     * Build result.
+     * Do not use outside of childes of component class.
      */
     public abstract void build();
 
     public String getResult(){ return result; }
 
+    /**
+     * Append child to array.
+     * @param component component to add. Can be any component
+     */
     public void appendChild(ASCIIComponent component){
         if (components == null){
             components = new ASCIIComponent[1];
@@ -80,6 +92,9 @@ public abstract class ASCIIComponent {
         }
     }
 
+    /**
+     * Clear components array
+     */
     public void clear(){
         result = "";
         components = null;

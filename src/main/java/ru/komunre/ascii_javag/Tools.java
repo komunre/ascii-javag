@@ -9,6 +9,11 @@ public class Tools {
         return newArray;
     }
 
+    /**
+     * Create a string full of spaces.
+     * @param length Length of a string and also amount of spaces.
+     * @return String
+     */
     public static String createEmpty(int length){
         StringBuilder builder = new StringBuilder(length);
         for (int x = 0; x != length; x++){

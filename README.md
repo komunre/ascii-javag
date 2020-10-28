@@ -23,8 +23,8 @@ frame.draw();
 ````
 
 ##Future features
-* JavaDoc API
+* JavaDoc API improvement
 
 * Scroll component
 
-* Features List
+* More examples
