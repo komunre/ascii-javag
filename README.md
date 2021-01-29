@@ -23,7 +23,7 @@ AjavagFrame frame = new AjavagFrame(100, 80);
 AjavagRectangle rect = new AjavagRectangle(0, 0, 20, 15);
 rect.appendChild(new AjavagLabel(1, 1, "Hello world!");
 frame.appendChild(rect);
-frame.combineChilded();
+frame.combineChildes();
 frame.draw();
 ````
 
